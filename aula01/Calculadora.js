@@ -1,0 +1,18 @@
+// Importando a biblioteca
+const leia = require('readline-sync')
+
+// Variaveis
+let celsius, fahrenheit
+
+//Entrada de dados
+celsius = leia.questionFloat("Insira a temperatura em Celsius: ")
+
+// Processamento
+fahrenheit = celsius * 1.8 + 32
+
+// Saída de dados
+console.log("A temperatura em Fahrenheit é: " + fahrenheit)
+// Escrita diferente de comando, não altera valor
+console.log("A temperatura em Fahrenheit é: %f", fahrenheit)
+
+
